@@ -13,7 +13,7 @@
 </table>
 <script>
 async function fetchStudentData() {
-const response = await fetch('https://extracredit-func-h4g0g7b5bweaf9gq.eastus2-01.azurewebsites.net/api/GetStudentCount?code=aPZs5HIsGYm424C7uUp8cbwecoGj6FKrHoXs9YAPwHTpAzFu9GJraw==');
+const response = await fetch('https://getcountry-fagaguezahcxb0hj.eastus2-01.azurewebsites.net/api/getcountry?code=4py8cscxK2nT70qpfpRsxz-9DGu7qnlZ4puRpOGBluP9AzFuyIur1w==');
 const data = await response.json();
 const tableBody = document.querySelector('#studentTable tbody');
 tableBody.innerHTML = data.map(row =>
